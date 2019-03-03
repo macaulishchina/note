@@ -1,0 +1,31 @@
+---
+layout: "post"
+title: "git的使用"
+date: "2019-03-01 15:11"
+---
+
+## 建立本地仓库
+```
+git init
+```
+## 关联远程仓库
+```
+git remote add origin git@github.com:username/repertory.git
+```
+
+
+## create a new repository on the command line
+```
+echo "# note" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:macaulishchina/note.git
+git push -u origin master
+```
+
+## push an existing repository from the command line
+```
+git remote add origin git@github.com:macaulishchina/note.git
+git push -u origin master
+```
